@@ -1,2 +1,15 @@
+body{
+    background-color: #ECC85C;
+}
 
-
+main{
+    section{
+        #main-title{
+            text-align: center;
+            font-size: 50px;
+            margin: 50px;
+            background-image: 
+            url(https://www.tourmag.com/photo/art/default/76836533-55389305.jpg?v=1700574137);
+        }
+    }
+}
