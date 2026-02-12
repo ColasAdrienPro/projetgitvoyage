@@ -15,5 +15,79 @@ body {
     background: url("../assets/img/img.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    backdrop-filter:blur(3px);
+}
+
+.text h1 {
+
+     position: relative;
+    text-align: center;
+    justify-content: center;
+    font-size:50px;
+    color: white;
+
+}
+ .text p {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+ }
+
+ .subscribe-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+
+ .subscribe-form input {
+    width: 260px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+ }
+
+ .subscribe-form button {
+    padding: 14px 30px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(196, 172, 172);
+    border-radius: 0 30px 30px 0;
+ }
+
+footer {
+   
     
+    margin: 20px;
+    margin-top: 200px;    
+     border: 2px solid rgba(255, 255, 255, 0.5);
+     background-color: rgb(255,255,255,0.5);
+     backdrop-filter:blur(0px);
+     
+}
+
+.contenue-footer {
+   display:flex;
+    justify-content: space-betwen;
+    padding:10px;
+   
+}
+
+.contenue-footer div {
+    max-width: 250px;
+}
+
+.liens {
+    margin-left: 300px;
+}
+
+.support {
+   
+margin-right: 300px;
+}
+.contenue-footer div:nth-child(3) {
+    margin-left: 80px;
 }
