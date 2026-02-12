@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "mapolice";
+    src: url(/fonts/mapolice.ttf) format("OpenType");
+    font-weight:normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    font-family: "mapolice",sans-serif;
+    background: url("../assets/img/img.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
