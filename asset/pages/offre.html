@@ -4,109 +4,156 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ri7 Voyage</title>
-    <link rel="stylesheet" href="../style/offre-style.css">
+    <link rel="stylesheet" href="../style/offre-style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    <main>
-      <section>
-        <div id="main-title">
-          <h1>Nos Offres Voyages</h1>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-sunset sticky-top">
+        <div class="container">
+          <a
+            class="navbar-brand text-black fw-bold d-flex align-items-center"
+            href="#"
+          >
+            <img
+              src="../img/travel.png"
+              alt="Logo Ri7"
+              class="logo-navbar me-2"
+            />
+            Ri7 Travel</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav gap-lg-4 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nos voyages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nos offres</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
         </div>
-        <article id="europe">
-          <div class="title">
-            <h2>Europe</h2>
-          </div>
-          <div>
-            <div id="france">
-              <h3>France</h3>
-              <p></p>
+      </nav>
+    </header>
+    <main>
+      <div id="main-title">
+        <h1>Nos Offres</h1>
+        <p>Voyager n'a jamais été aussi accesible</p>
+      </div>
+      <section class="section">
+        <div class="bandeau">
+          <article class="article">
+            <div class="article-img">
+              <img
+                src="https://photo.comptoir.fr/asset/mot-cle/2419/conwy-royaume-uni-703636-1440x670.jpg"
+                alt="conwy royaume-uni"
+              />
             </div>
-          </div>
-        </article>
-        <article id="afrique">
-          <div class="title">
-            <h2>l'Afrique</h2>
-          </div>
-          <div>
-            <div id="algeria">
-              <h3>Algérie</h3>
+            <div class="article-txt">
+              <h2>Conwy aux Royayme-Uni</h2>
+              <h3>de:Aéroport de Paris-Charles de Gaulle</h3>
+              <h3>vers:Aéroport de Liverpool (LPL)</h3>
             </div>
-            <div id="egypt">
-              <h3>Égypte</h3>
+            <div class="article-button">
+              <a href="">
+                <button>737 €</button>
+              </a>
             </div>
-            <div id="madagascar">
-              <h3>Madagascar</h3>
+          </article>
+          <article class="article">
+            <div class="article-img">
+              <img
+                src="https://www.franceinfo.fr/pictures/L0YzrwF84q4EE5B9pUiKupJlGrQ/1200x1200/2020/04/29/phpFmJb6f.jpg"
+                alt="lund en suede"
+              />
             </div>
-            <div id="kenya">
-              <h3>Kenya</h3>
+            <div class="article-txt">
+              <h2>Lund en Suede</h2>
+              <h3>de: Aéroport Marseille Provence</h3>
+              <h3>vers:Aéroport de Malmö (MMX-Sturup)</h3>
             </div>
-          </div>
-        </article>
-        <article id="asie">
-          <div class="title">
-            <h2>l'Asie</h2>
-          </div>
-          <div>
-            <div id="south korea">
-              <h3>Corée du Sud</h3>
+            <div class="article-button">
+              <a href="">
+                <button>130,00 €</button>
+              </a>
             </div>
-            <div id="japan">
-              <h3>Japon</h3>
+          </article>
+        </div>
+        <div class="bandeau">
+          <article class="article">
+            <div class="article-img">
+              <img
+                src="https://blog.ruedesvignerons.com/wp-content/uploads/2019/02/visiter-cahors-image-mise-en-avant.jpg"
+                alt="Cahors en France"
+              />
             </div>
-          </div>
-        </article>
-        <article id="title">
-          <div>
-            <h2>l'Océanie</h2>
-          </div>
-          <div>
-            <div id="australia">
-              <h3>l'Austalie</h3>
+            <div class="article-txt">
+              <h2>Cahors en France</h2>
+              <h3>de: Aéroport du Castellet</h3>
+              <h3>vers:Aéroport de Cahors-Lalbenque - LFCC</h3>
             </div>
-            <div id="new zeland">
-              <h3>La Nouvelle Zélande</h3>
+            <div class="article-button">
+              <a href="">
+                <button>371 €</button>
+              </a>
             </div>
-            <div id="new guinea">
-              <h3>Nouvelle Guinée</h3>
+          </article>
+          <article class="article">
+            <img
+              src="https://content.r9cdn.net/rimg/dimg/26/20/9d08935f-city-18161-169e37f8077.jpg?width=1366&height=768&xhint=1703&yhint=1053&crop=true"
+              alt="Simi Valley aux États-Unis"
+            />
+            <div class="article-txt">
+              <h2>Simi Valley États-Unis</h2>
+              <h3>de: Aéroport Paris-Beauvais</h3>
+              <h3>vers:Aéroport de Los Angeles (LAX)</h3>
             </div>
-            <div id="fidji">
-              <h3>Fidji</h3>
+            <div class="article-button">
+              <button>48 €</button>
             </div>
-            <div id="samoa">
-              <h3>Samoa</h3>
-            </div>
-          </div>
-        </article>
-        <article id="north america">
-          <div class="title">
-            <h2>Amérique du Nord</h2>
-          </div>
-          <div>
-            <div id="united-state">
-              <h3>les Etats-Unis</h3>
-            </div>
-            <div id="canada">
-              <h3>Le Canada</h3>
-            </div>
-          </div>
-        </article>
-        <article id="south america">
-          <div class="title">
-            <h2>Amérique du Sud</h2>
-          </div>
-          <div>
-            <div id="bresil">
-              <h3>Brésil</h3>
-            </div>
-            <div id="argentine">
-              <h3>Argentine</h3>
-            </div>
-            <div id="perou">
-              <h3>Pérou</h3>
-            </div>
-          </div>
-        </article>
+          </article>
+        </div>
       </section>
     </main>
+    <footer class="footer-sunset text-white text-center">
+      <div class="container">
+        <h5 class="fw-bold mb-3">Ri7 Travel</h5>
+        <div class="social-icons mb-3">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <small>© 2026 Ri7 Travel — Tous droits réservés</small>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
