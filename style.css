@@ -8,7 +8,22 @@
 body {
     margin: 0;
     padding: 0;
-} 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+
+footer {
+    margin-top: auto;
+}
+
+
 
 body {
     font-family: "mapolice",sans-serif;
@@ -60,25 +75,50 @@ body {
 
 footer {
    border-radius: 10px;
-    margin: 20px;
-    margin-top: 200px;    
+    margin-top: auto;
+    margin-bottom :00px;    
      border: 2px solid rgba(255, 255, 255, 0.5);
      background-color: rgb(255,255,255,0.5);
      backdrop-filter:blur(0px);
+ 
      
 }
 
 .contenue-footer {
    display:flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 40px;
     padding:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
   
 }
 
 .contenue-footer div {
    
-    line-height:1.2;
+    line-height:1.5;
 }
 
+.icons{
+    animation-duration: 0.5s;
+}
+
+.fa-brands {
+    background: rgb(209, 169, 169);
+    padding:15px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+}
 
 
