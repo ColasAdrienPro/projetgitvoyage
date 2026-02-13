@@ -1,0 +1,99 @@
+body {
+  background-color: #ecc85c !important;
+  margin: 0;
+
+  font-family: cursive;
+}
+
+.navbar-sunset {
+  background: linear-gradient(90deg, #fff347, #ff7300);
+}
+
+.navbar-sunset .nav-link {
+  color: white;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.logo-navbar {
+  height: 60px;
+  width: auto;
+}
+
+.navbar-sunset .nav-link:hover {
+  color: #a63200;
+  box-shadow: 0 10px 25px rgb(246, 243, 243);
+  transform: translateY(-10px);
+  border-radius: 20px;
+  border: solid rgb(255, 250, 243) 2px;
+  background-color: #fff347;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+main {
+  section {
+    #main-title {
+      color: white;
+      text-align: center;
+      font-size: 25px;
+      margin-top: 85px;
+      background-image: url(https://www.tourmag.com/photo/art/default/76836533-55389305.jpg?v=1700574137);
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: center;
+    }
+    .article {
+      background-color: white;
+      text-align: center;
+      margin: 20px;
+      border-radius: 50px;
+      overflow: hidden;
+      transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.footer-sunset {
+  background: linear-gradient(90deg, #fff347, #ff7300);
+  padding: 30px 0;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff2600;
+  transform: translateY(-3px);
+}
+
+@media(min-width:768px) {
+    .bandeau{
+        display: flex;
+        width: 100%;
+        .article{
+            width: 50%;
+        }
+    }
+    
+}
+
+@media (min-width:1024px) {
+    .section{
+        display: flex;
+    }
+}
