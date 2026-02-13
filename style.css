@@ -11,6 +11,45 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
+}
+
+body{
+    font-family: cursive;
+}
+
+.navbar-sunset {
+    background: linear-gradient(90deg,  #fff347, #ff7300);
+    opacity: 0.8;
+}
+
+.navbar-sunset .nav-link {
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.logo-navbar {
+    height: 50px; 
+    width: auto;  
+   
+}
+
+
+.navbar-sunset .nav-link:hover {
+    color: #a63200;
+    box-shadow: 0 10px 25px rgb(246, 243, 243);
+    transform: translateY(-10px);
+    border-radius: 20px;
+    border: solid rgb(255, 250, 243) 2px;
+    background-color: #fff347;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 footer {
@@ -27,11 +66,12 @@ footer {
 
 body {
     font-family: "mapolice",sans-serif;
-    background: url("../assets/img/img.jpeg");
+    background: url("/assets/images/img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     backdrop-filter:blur(3px);
+    
 }
 
 .text h1 {
@@ -74,24 +114,20 @@ body {
  }
 
 footer {
-   border-radius: 10px;
-    margin-top: auto;
-    margin-bottom :00px;    
+   border-radius: 10px;   
      border: 2px solid rgba(255, 255, 255, 0.5);
      background-color: rgb(255,255,255,0.5);
      backdrop-filter:blur(0px);
+     padding: 0px 20px;
  
-     
 }
 
 .contenue-footer {
    display:flex;
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 40px;
-    padding:20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   padding: 10px;
+   margin-bottom: -50px;
 
   
 }
